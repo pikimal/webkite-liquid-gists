@@ -1,5 +1,5 @@
 #Collapsible Sidebar
-On the Results page. Say you want to have filters toggled closed by default and allow a visitor to expand them. First include the JS, which will transform the header into a toggle.
+On the Results page. Say you want to have filters toggled closed by default and allow a visitor to expand them. First include the JS (../collapsible_sidebar/collapse.js), which will transform the header into a toggle.
 
 You can include the JS in Top Results Assets section, and after that you'll either want to add the following to your main CSS file, or as another external file in Top Results Assets:
 
