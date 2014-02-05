@@ -1,0 +1,8 @@
+{% if item.has_top_level_attributes? %}
+  <ul class="item-data">
+    <li>
+      <span>{{item.attributes['Yelp score'].name }}</span>
+      {{ item.attributes['Yelp score'].value }}
+    </li>
+  </ul>
+{% endif %}
