@@ -1,0 +1,5 @@
+{% if item.photos? %}
+  <img alt="{{ item.name }}" src="{{ item.item_image_url }}" />
+{% else %}
+  <img alt="{{ item.name }}" src="{{'item-placeholder.jpg'|image_url}}" />
+{% endif %}
